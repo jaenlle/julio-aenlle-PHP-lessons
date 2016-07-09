@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PHP Lesson 4</title>
+    <link rel="stylesheet" href="dependencies/normalize.css" />
+    <link rel="stylesheet" href="dependencies/skeleton.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>Simple Contact Form</h1>
+
+          <form method="post" action="contact-form.php">
+            <label for="Name">Name</label>
+            <input type="text" name="Name" id="Name" />
+
+            <label for="Email">Email</label>
+            <input type="text" name="Email" id="Email" />
+
+            <label for="Message">Message</label>
+            <textarea name="Message" rows="20" cols="60" id="Message"></textarea>
+
+            <input type="submit" name="submit" value="submit" class="submit-button" />
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
